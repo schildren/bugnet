@@ -62,7 +62,7 @@ namespace BugNET.Projects
                 ltProject.Text = p.Name;
                 litProjectCode.Text = p.Code;
 
-				Page.Title = string.Format("{0} ({1}) - {2}", p.Name, p.Code, GetLocalResourceObject("Roadmap").ToString());
+				Page.Title = string.Format("{0} ({1}) - {2}", p.Name, p.Code, GetLocalResourceObject("TitleLabel.Text").ToString());
 
 
 				BindRoadmap();             
